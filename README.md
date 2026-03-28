@@ -500,7 +500,7 @@ Seeds the database from hospitals.json.
 
 - [ ] Real-time bed availability via hospital APIs
 - [ ] Insurance coverage filter
-- [ ] Multi-language support (Hindi, Kannada, Tamil)
+- [ ] Multi-language support (Marathi, Hindi, Kannada, Tamil)
 - [ ] Ride-hailing integration (Ola/Uber ETA)
 - [ ] Doctor availability and specialization filter
 - [ ] Offline PWA mode with cached hospital data
