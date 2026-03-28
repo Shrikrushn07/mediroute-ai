@@ -1,4 +1,37 @@
-# ✨ Saksham 2.0 — AI Powered Smart Healthcare Decision System
+# 🚑 MediRoute AI — Smart Healthcare Routing System
+
+An AI-powered full-stack healthcare platform that helps users find the best hospital based on distance, cost, and availability.
+
+---
+
+## 🚀 Live Demo
+
+- 🌐 Frontend: https://mediroute-ai-two.vercel.app
+- ⚙️ Backend: https://mediroute-ai-djs8.onrender.com  
+
+---
+
+## 🧠 Key Features
+
+- Smart hospital recommendation  
+- Shortest path routing (Dijkstra)  
+- Cost + distance optimization  
+- Fully deployed full-stack app  
+
+---
+
+## 🛠 Tech Stack
+
+- React + Vite  
+- Node.js + Express  
+- MongoDB  
+- Vercel + Render  
+
+---
+
+## 📚 Full Documentation
+
+👇 Scroll below for detailed architecture, algorithms, and API docs.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Node.js](https://img.shields.io/badge/Node.js-18+-green.svg)](https://nodejs.org/)
