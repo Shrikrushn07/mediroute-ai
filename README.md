@@ -1,22 +1,24 @@
-# 🚑 MediRoute AI — Smart Healthcare Routing System
+# ✨ MediRoute AI — Smart Healthcare Routing System
 
-An AI-powered full-stack healthcare platform that helps users find the best hospital based on distance, cost, and availability.
+> AI-powered full-stack healthcare platform that recommends the best hospitals based on distance, cost, and availability.
 
 ---
 
 ## 🚀 Live Demo
 
-- 🌐 Frontend: https://mediroute-ai-two.vercel.app
-- ⚙️ Backend: https://mediroute-ai-djs8.onrender.com  
+- 🌐 Frontend: https://mediroute-ai-two.vercel.app  
+- ⚙️ Backend API: https://mediroute-ai-djs8.onrender.com  
+- 🔍 Health Check: https://mediroute-ai-djs8.onrender.com/api/health  
 
 ---
 
 ## 🧠 Key Features
 
-- Smart hospital recommendation  
-- Shortest path routing (Dijkstra)  
-- Cost + distance optimization  
-- Fully deployed full-stack app  
+- 🏥 Smart hospital recommendation  
+- 📍 Shortest path routing (Dijkstra Algorithm)  
+- 💰 Cost + distance optimization  
+- ⚡ Real-time API integration  
+- 🌐 Fully deployed full-stack app  
 
 ---
 
