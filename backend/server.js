@@ -8,7 +8,6 @@
 
 const express = require('express');
 const cors = require('cors');
-const path = require('path');
 const config = require('./config');
 
 const app = express();
@@ -27,15 +26,6 @@ app.use((req, _res, next) => {
 // ── Routes ─────────────────────────────────────────────────────────────────────
 const hospitalRoutes = require('./routes/hospitals');
 app.use('/api', hospitalRoutes);
-
-// Serve frontend build in production
-if (config.NODE_ENV === 'production') {
-  const frontendBuild = path.join(__dirname, '../frontend/dist');
-  app.use(express.static(frontendBuild));
-  app.get('*', (_req, res) => {
-    res.sendFile(path.join(frontendBuild, 'index.html'));
-  });
-}
 
 // 404 handler
 app.use((_req, res) => {
