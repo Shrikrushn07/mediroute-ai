@@ -44,7 +44,7 @@
 
 ---
 
-## 🧠 Algorithms & Complexity — For Judges
+## 🧠 Algorithms & Complexity —
 
 ### 1. Dijkstra's Shortest Path (`/backend/algorithms/dijkstra.js`)
 
