@@ -1,0 +1,505 @@
+[
+  {
+    "id": "BLR001",
+    "name": "Apollo Hospital Bannerghatta",
+    "city": "Bangalore",
+    "lat": 12.8456,
+    "lng": 77.5968,
+    "treatments": ["kidney", "heart", "fracture", "appendix", "c-section"],
+    "cost_map": {
+      "kidney": 280000,
+      "heart": 750000,
+      "fracture": 45000,
+      "appendix": 65000,
+      "c-section": 90000
+    },
+    "rating": 4.5,
+    "beds_available": 12,
+    "phone": "+91-80-26304050"
+  },
+  {
+    "id": "BLR002",
+    "name": "Narayana Health City",
+    "city": "Bangalore",
+    "lat": 12.8894,
+    "lng": 77.6423,
+    "treatments": ["kidney", "heart", "fracture", "c-section"],
+    "cost_map": {
+      "kidney": 240000,
+      "heart": 680000,
+      "fracture": 38000,
+      "c-section": 75000
+    },
+    "rating": 4.7,
+    "beds_available": 25,
+    "phone": "+91-80-71222222"
+  },
+  {
+    "id": "BLR003",
+    "name": "Manipal Hospital Old Airport Road",
+    "city": "Bangalore",
+    "lat": 12.9562,
+    "lng": 77.6491,
+    "treatments": ["kidney", "heart", "appendix", "fracture", "c-section"],
+    "cost_map": {
+      "kidney": 310000,
+      "heart": 820000,
+      "appendix": 72000,
+      "fracture": 52000,
+      "c-section": 105000
+    },
+    "rating": 4.4,
+    "beds_available": 8,
+    "phone": "+91-80-25023000"
+  },
+  {
+    "id": "BLR004",
+    "name": "Fortis Hospital Cunningham Road",
+    "city": "Bangalore",
+    "lat": 12.9932,
+    "lng": 77.5920,
+    "treatments": ["heart", "kidney", "fracture"],
+    "cost_map": {
+      "heart": 900000,
+      "kidney": 340000,
+      "fracture": 60000
+    },
+    "rating": 4.3,
+    "beds_available": 4,
+    "phone": "+91-80-66214444"
+  },
+  {
+    "id": "BLR005",
+    "name": "St. John's Medical College Hospital",
+    "city": "Bangalore",
+    "lat": 12.9252,
+    "lng": 77.6180,
+    "treatments": ["appendix", "fracture", "c-section", "kidney"],
+    "cost_map": {
+      "appendix": 42000,
+      "fracture": 28000,
+      "c-section": 55000,
+      "kidney": 195000
+    },
+    "rating": 4.1,
+    "beds_available": 30,
+    "phone": "+91-80-22065000"
+  },
+  {
+    "id": "BLR006",
+    "name": "Vikram Hospital Millers Road",
+    "city": "Bangalore",
+    "lat": 12.9899,
+    "lng": 77.5870,
+    "treatments": ["c-section", "appendix", "fracture"],
+    "cost_map": {
+      "c-section": 62000,
+      "appendix": 38000,
+      "fracture": 22000
+    },
+    "rating": 3.9,
+    "beds_available": 0,
+    "phone": "+91-80-42424242"
+  },
+  {
+    "id": "BLR007",
+    "name": "BGS Gleneagles Global Hospital",
+    "city": "Bangalore",
+    "lat": 12.8348,
+    "lng": 77.5523,
+    "treatments": ["kidney", "heart", "appendix", "c-section"],
+    "cost_map": {
+      "kidney": 265000,
+      "heart": 710000,
+      "appendix": 58000,
+      "c-section": 82000
+    },
+    "rating": 4.2,
+    "beds_available": 15,
+    "phone": "+91-80-26745678"
+  },
+  {
+    "id": "BLR008",
+    "name": "Columbia Asia Hospital Whitefield",
+    "city": "Bangalore",
+    "lat": 12.9698,
+    "lng": 77.7499,
+    "treatments": ["fracture", "appendix", "c-section"],
+    "cost_map": {
+      "fracture": 35000,
+      "appendix": 48000,
+      "c-section": 70000
+    },
+    "rating": 4.0,
+    "beds_available": 7,
+    "phone": "+91-80-39898989"
+  },
+  {
+    "id": "BLR009",
+    "name": "Sakra World Hospital",
+    "city": "Bangalore",
+    "lat": 12.9340,
+    "lng": 77.6839,
+    "treatments": ["kidney", "heart", "fracture"],
+    "cost_map": {
+      "kidney": 298000,
+      "heart": 780000,
+      "fracture": 48000
+    },
+    "rating": 4.6,
+    "beds_available": 0,
+    "phone": "+91-80-49694969"
+  },
+  {
+    "id": "BLR010",
+    "name": "NIMHANS (Government Hospital)",
+    "city": "Bangalore",
+    "lat": 12.9421,
+    "lng": 77.5951,
+    "treatments": ["appendix", "fracture"],
+    "cost_map": {
+      "appendix": 12000,
+      "fracture": 8000
+    },
+    "rating": 3.7,
+    "beds_available": 50,
+    "phone": "+91-80-46110007"
+  },
+  {
+    "id": "MUM001",
+    "name": "Kokilaben Dhirubhai Ambani Hospital",
+    "city": "Mumbai",
+    "lat": 19.1286,
+    "lng": 72.8258,
+    "treatments": ["kidney", "heart", "appendix", "fracture", "c-section"],
+    "cost_map": {
+      "kidney": 420000,
+      "heart": 1100000,
+      "appendix": 95000,
+      "fracture": 75000,
+      "c-section": 130000
+    },
+    "rating": 4.8,
+    "beds_available": 18,
+    "phone": "+91-22-30999999"
+  },
+  {
+    "id": "MUM002",
+    "name": "Lilavati Hospital Bandra",
+    "city": "Mumbai",
+    "lat": 19.0508,
+    "lng": 72.8260,
+    "treatments": ["heart", "kidney", "c-section", "fracture"],
+    "cost_map": {
+      "heart": 980000,
+      "kidney": 380000,
+      "c-section": 115000,
+      "fracture": 68000
+    },
+    "rating": 4.6,
+    "beds_available": 10,
+    "phone": "+91-22-26751000"
+  },
+  {
+    "id": "MUM003",
+    "name": "Tata Memorial Hospital",
+    "city": "Mumbai",
+    "lat": 18.9985,
+    "lng": 72.8122,
+    "treatments": ["kidney", "appendix"],
+    "cost_map": {
+      "kidney": 180000,
+      "appendix": 35000
+    },
+    "rating": 4.9,
+    "beds_available": 60,
+    "phone": "+91-22-24177000"
+  },
+  {
+    "id": "MUM004",
+    "name": "Hinduja Hospital Mahim",
+    "city": "Mumbai",
+    "lat": 19.0381,
+    "lng": 72.8388,
+    "treatments": ["kidney", "heart", "fracture", "appendix", "c-section"],
+    "cost_map": {
+      "kidney": 350000,
+      "heart": 920000,
+      "fracture": 58000,
+      "appendix": 78000,
+      "c-section": 108000
+    },
+    "rating": 4.4,
+    "beds_available": 14,
+    "phone": "+91-22-24452222"
+  },
+  {
+    "id": "MUM005",
+    "name": "Breach Candy Hospital",
+    "city": "Mumbai",
+    "lat": 18.9725,
+    "lng": 72.8093,
+    "treatments": ["c-section", "fracture", "appendix"],
+    "cost_map": {
+      "c-section": 145000,
+      "fracture": 85000,
+      "appendix": 102000
+    },
+    "rating": 4.5,
+    "beds_available": 5,
+    "phone": "+91-22-23667888"
+  },
+  {
+    "id": "MUM006",
+    "name": "KEM Hospital (Government)",
+    "city": "Mumbai",
+    "lat": 18.9955,
+    "lng": 72.8363,
+    "treatments": ["appendix", "fracture", "c-section", "kidney"],
+    "cost_map": {
+      "appendix": 18000,
+      "fracture": 12000,
+      "c-section": 22000,
+      "kidney": 95000
+    },
+    "rating": 3.8,
+    "beds_available": 80,
+    "phone": "+91-22-24107000"
+  },
+  {
+    "id": "MUM007",
+    "name": "Nanavati Super Speciality Hospital",
+    "city": "Mumbai",
+    "lat": 19.1010,
+    "lng": 72.8355,
+    "treatments": ["kidney", "heart", "c-section"],
+    "cost_map": {
+      "kidney": 310000,
+      "heart": 850000,
+      "c-section": 98000
+    },
+    "rating": 4.3,
+    "beds_available": 9,
+    "phone": "+91-22-26267500"
+  },
+  {
+    "id": "MUM008",
+    "name": "SL Raheja Hospital Mahim",
+    "city": "Mumbai",
+    "lat": 19.0292,
+    "lng": 72.8415,
+    "treatments": ["fracture", "appendix"],
+    "cost_map": {
+      "fracture": 48000,
+      "appendix": 62000
+    },
+    "rating": 4.0,
+    "beds_available": 0,
+    "phone": "+91-22-66529999"
+  },
+  {
+    "id": "MUM009",
+    "name": "Wockhardt Hospital South Mumbai",
+    "city": "Mumbai",
+    "lat": 18.9258,
+    "lng": 72.8349,
+    "treatments": ["heart", "kidney", "fracture"],
+    "cost_map": {
+      "heart": 870000,
+      "kidney": 295000,
+      "fracture": 52000
+    },
+    "rating": 4.2,
+    "beds_available": 6,
+    "phone": "+91-22-61784444"
+  },
+  {
+    "id": "MUM010",
+    "name": "Jupiter Hospital Thane",
+    "city": "Mumbai",
+    "lat": 19.2183,
+    "lng": 72.9781,
+    "treatments": ["kidney", "heart", "appendix", "c-section", "fracture"],
+    "cost_map": {
+      "kidney": 270000,
+      "heart": 730000,
+      "appendix": 55000,
+      "c-section": 85000,
+      "fracture": 40000
+    },
+    "rating": 4.4,
+    "beds_available": 22,
+    "phone": "+91-22-21826000"
+  },
+  {
+    "id": "DEL001",
+    "name": "AIIMS New Delhi",
+    "city": "Delhi",
+    "lat": 28.5672,
+    "lng": 77.2100,
+    "treatments": ["kidney", "heart", "appendix", "fracture", "c-section"],
+    "cost_map": {
+      "kidney": 120000,
+      "heart": 450000,
+      "appendix": 25000,
+      "fracture": 15000,
+      "c-section": 30000
+    },
+    "rating": 4.9,
+    "beds_available": 100,
+    "phone": "+91-11-26588500"
+  },
+  {
+    "id": "DEL002",
+    "name": "Max Super Speciality Hospital Saket",
+    "city": "Delhi",
+    "lat": 28.5274,
+    "lng": 77.2167,
+    "treatments": ["kidney", "heart", "fracture", "appendix", "c-section"],
+    "cost_map": {
+      "kidney": 320000,
+      "heart": 880000,
+      "fracture": 62000,
+      "appendix": 72000,
+      "c-section": 95000
+    },
+    "rating": 4.6,
+    "beds_available": 20,
+    "phone": "+91-11-26515050"
+  },
+  {
+    "id": "DEL003",
+    "name": "Fortis Escorts Heart Institute",
+    "city": "Delhi",
+    "lat": 28.5626,
+    "lng": 77.2773,
+    "treatments": ["heart", "kidney"],
+    "cost_map": {
+      "heart": 950000,
+      "kidney": 360000
+    },
+    "rating": 4.7,
+    "beds_available": 11,
+    "phone": "+91-11-47135000"
+  },
+  {
+    "id": "DEL004",
+    "name": "Sir Ganga Ram Hospital",
+    "city": "Delhi",
+    "lat": 28.6399,
+    "lng": 77.1892,
+    "treatments": ["kidney", "heart", "appendix", "c-section", "fracture"],
+    "cost_map": {
+      "kidney": 295000,
+      "heart": 810000,
+      "appendix": 68000,
+      "c-section": 88000,
+      "fracture": 55000
+    },
+    "rating": 4.5,
+    "beds_available": 16,
+    "phone": "+91-11-25750000"
+  },
+  {
+    "id": "DEL005",
+    "name": "Apollo Hospital Sarita Vihar",
+    "city": "Delhi",
+    "lat": 28.5358,
+    "lng": 77.2959,
+    "treatments": ["kidney", "heart", "fracture", "c-section"],
+    "cost_map": {
+      "kidney": 340000,
+      "heart": 890000,
+      "fracture": 70000,
+      "c-section": 110000
+    },
+    "rating": 4.5,
+    "beds_available": 13,
+    "phone": "+91-11-29871011"
+  },
+  {
+    "id": "DEL006",
+    "name": "Safdarjung Hospital (Government)",
+    "city": "Delhi",
+    "lat": 28.5674,
+    "lng": 77.2060,
+    "treatments": ["appendix", "fracture", "c-section", "kidney"],
+    "cost_map": {
+      "appendix": 10000,
+      "fracture": 8000,
+      "c-section": 15000,
+      "kidney": 80000
+    },
+    "rating": 3.6,
+    "beds_available": 120,
+    "phone": "+91-11-26165060"
+  },
+  {
+    "id": "DEL007",
+    "name": "Medanta The Medicity Gurugram",
+    "city": "Delhi",
+    "lat": 28.4432,
+    "lng": 77.0456,
+    "treatments": ["kidney", "heart", "appendix", "fracture", "c-section"],
+    "cost_map": {
+      "kidney": 390000,
+      "heart": 1050000,
+      "appendix": 85000,
+      "fracture": 78000,
+      "c-section": 120000
+    },
+    "rating": 4.8,
+    "beds_available": 28,
+    "phone": "+91-124-4141414"
+  },
+  {
+    "id": "DEL008",
+    "name": "BLK Super Speciality Hospital",
+    "city": "Delhi",
+    "lat": 28.6471,
+    "lng": 77.1799,
+    "treatments": ["kidney", "fracture", "appendix"],
+    "cost_map": {
+      "kidney": 275000,
+      "fracture": 50000,
+      "appendix": 60000
+    },
+    "rating": 4.3,
+    "beds_available": 8,
+    "phone": "+91-11-30403040"
+  },
+  {
+    "id": "DEL009",
+    "name": "Indraprastha Apollo Hospital",
+    "city": "Delhi",
+    "lat": 28.5421,
+    "lng": 77.2887,
+    "treatments": ["heart", "kidney", "c-section", "appendix"],
+    "cost_map": {
+      "heart": 920000,
+      "kidney": 330000,
+      "c-section": 100000,
+      "appendix": 75000
+    },
+    "rating": 4.6,
+    "beds_available": 17,
+    "phone": "+91-11-71791090"
+  },
+  {
+    "id": "DEL010",
+    "name": "Venkateshwar Hospital Dwarka",
+    "city": "Delhi",
+    "lat": 28.5881,
+    "lng": 77.0496,
+    "treatments": ["fracture", "c-section", "appendix", "kidney"],
+    "cost_map": {
+      "fracture": 42000,
+      "c-section": 78000,
+      "appendix": 52000,
+      "kidney": 248000
+    },
+    "rating": 4.1,
+    "beds_available": 3,
+    "phone": "+91-11-45890000"
+  }
+]

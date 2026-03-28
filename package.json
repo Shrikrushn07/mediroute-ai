@@ -1,0 +1,18 @@
+{
+  "name": "mediroute-ai",
+  "version": "1.0.0",
+  "description": "Saksham 2.0 — AI Powered Smart Healthcare Decision System",
+  "private": true,
+  "scripts": {
+    "dev": "npm start",
+    "start": "concurrently \"npm run backend\" \"npm run frontend\"",
+    "backend": "cd backend && npm run dev",
+    "frontend": "cd frontend && npm run dev",
+    "test": "cd tests && npm install --silent && npm test",
+    "seed": "cd backend && node db/seeder.js",
+    "install:all": "npm install && cd backend && npm install && cd ../frontend && npm install && cd ../tests && npm install"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
