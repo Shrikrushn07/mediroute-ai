@@ -1,14 +1,14 @@
 /**
  * API client — all backend calls go through here.
- * Base URL reads from Vite env var or defaults to localhost:5000.
+ * Base URL is hardcoded to the deployed Render backend.
  */
 
 import axios from 'axios';
 
-const BASE_URL = import.meta.env.VITE_API_URL || '/api';
+const API_BASE = "https://mediroute-ai-djs8.onrender.com";
 
 const client = axios.create({
-  baseURL: BASE_URL,
+  baseURL: API_BASE,
   timeout: 15000,
 });
 
@@ -28,7 +28,7 @@ export async function fetchHospitals({ city, treatment, live = false, sort = 'sc
   const params = { city, treatment, live, sort, emergency };
   if (lat) params.lat = lat;
   if (lng) params.lng = lng;
-  const res = await client.get('/hospitals', { params });
+  const res = await client.get('/api/hospitals', { params });
   return res.data;
 }
 
@@ -43,7 +43,7 @@ export async function fetchHospitals({ city, treatment, live = false, sort = 'sc
  * @param {boolean} [params.emergency]
  */
 export async function fetchRecommendation({ lat, lng, treatment, city, emergency = false }) {
-  const res = await client.get('/recommendation', {
+  const res = await client.get('/api/recommendation', {
     params: { lat, lng, treatment, city, emergency },
   });
   return res.data;
@@ -53,7 +53,7 @@ export async function fetchRecommendation({ lat, lng, treatment, city, emergency
  * Trigger database seed.
  */
 export async function seedDatabase() {
-  const res = await client.post('/seed');
+  const res = await client.post('/api/seed');
   return res.data;
 }
 
