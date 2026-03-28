@@ -317,20 +317,6 @@ Frontend runs on: `http://localhost:5173`
 
 ---
 
-### Replit Setup
-
-1. **Fork/import** this repo into Replit
-2. In Replit sidebar → **Secrets**, add:
-   - `PORT` = `5000`
-   - `GOOGLE_PLACES_API_KEY` = your key (optional)
-   - `MAPBOX_TOKEN` = your token (optional)
-   - `OPENROUTESERVICE_KEY` = your key (optional)
-   - `MONGODB_URI` = your MongoDB Atlas URI (optional)
-3. Click **Run** — Replit will execute `.replit` which runs `bash run.sh`
-4. Frontend will be served via Replit's webview
-
----
-
 ### Run Tests
 
 ```bash
