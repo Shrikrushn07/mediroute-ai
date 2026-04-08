@@ -1,6 +1,6 @@
 # ⚙️ Algorithm Summary — MediRoute AI
 
-## One-Page Reference for Judges
+
 
 ---
 
